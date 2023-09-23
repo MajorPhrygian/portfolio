@@ -1,0 +1,44 @@
+body {
+    background-color: hsl(0, 12%, 90%);
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 1rem;
+}
+
+nav {
+    font-size: 1.25rem;
+    display: flex;
+    justify-content: space-around;
+    font-family: serif;
+}
+
+h1 {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;
+    font-size: 8rem;
+    font-weight: 500;
+}
+
+#intro {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+#location {
+    margin-left: 2rem;
+    width: 10rem;
+}
+
+#about {
+    display: flex;
+    justify-content: space-between;
+    max-width: 66%;
+    gap: 1.5rem;
+}
+
+#location {
+
+}
