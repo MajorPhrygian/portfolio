@@ -60,6 +60,7 @@ h1 a {
     align-content: space-between;
     flex-wrap: wrap-reverse;
     gap: 1rem;
+    
 }
 
 #location {
@@ -75,10 +76,6 @@ h1 a {
     margin-left: 2rem;
 }
 
-#photo-container {
-    width: auto;
-}
-
 #photo-profil {
     display: block;
     margin: 2rem auto;
@@ -88,12 +85,12 @@ h1 a {
 
 button {
     position: absolute;
-    bottom: 8px;
-    left: 16px;
+    bottom: 50%;
+    left: 50%;
 }
 
 .section-header {
-    margin-top: .4rem;
+    margin-top: 1.5rem;
     margin-bottom: .5rem;
     border-top: 1px solid black;
     border-bottom: 1px solid black;
@@ -102,6 +99,15 @@ button {
     font-size: 1.2rem;
 }
 
+#summersett {
+  width: 100%;
+}
+
+#video-arriola {
+   display: flex;
+   justify-content: center;
+}
+
 #footer-header {
-  
+    margin-top: 3rem;
 }
