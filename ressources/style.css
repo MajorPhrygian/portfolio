@@ -76,7 +76,7 @@ h1 a {
     margin-left: 2rem;
 }
 
-#photo-profil {
+.photo {
     display: block;
     margin: 2rem auto;
     width: 90%;
