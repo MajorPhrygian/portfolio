@@ -1,0 +1,212 @@
+body {
+    background-color: rgb(238, 233, 218);
+    /* background-image: url(/ressources/images/pexels-henry-&-co-1939485.jpg);
+    background-repeat: no-repeat;
+    background-size:cover; */
+}
+
+header {
+    margin-bottom: 1rem;
+    padding-bottom: 1rem;
+}
+
+#phase {
+    text-align: center;
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+#ticker {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+#options {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.option {
+    border: 1px black solid;
+    background-color: rgb(234, 231, 231);
+    padding: .5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.option:hover {
+    border: 2px hsl(60, 1%, 66%) solid;
+    background-color: rgb(221, 219, 219);
+}
+
+#card-display{
+    margin-bottom: 1rem;
+}
+
+#mat-header1,  #mat-header2 {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+#activePlayer {
+    width: 33%;
+}
+
+#prizes-deck {
+    width: 33%;
+    text-align: right;
+}
+
+button {
+    display: block;
+    margin: auto;
+}
+
+.deck-button {
+    height: 2.5rem;
+    width: 25%;
+
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+
+    font-size: 1.5rem;
+}
+
+button:hover {
+    background-color: white;
+}
+
+.card-countainer {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+}
+
+.card {
+    border: 1px black solid;
+    background-color: rgb(220, 186, 117);
+    padding: .5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 400px;
+}
+
+.card:hover {
+    /* border: 1px white solid; */
+    opacity: .7;
+    /* background-color: hsl(56, 48%, 64%); */
+}
+
+.hoverActiveAttack:hover {
+    border: 2px white solid;
+    background-color: hsla(0, 0%, 78%, 0.533);
+}
+
+.hoverActiveAbility:hover {
+    border: 2px hsl(60, 52%, 83%) solid;
+    background-color: hsla(60, 1%, 77%, 0.788);
+}
+
+#card-header {
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px black solid;
+    padding-bottom: .5rem;
+}
+
+#card-energies {
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px black solid;
+    /* padding-bottom: .5rem; */
+}
+
+#name {
+    display: inline;
+    font-size: 1.3rem;
+}
+
+#id {
+    display: none;
+}
+
+#hp {
+    display: inline;
+    font-size: 1.5rem;
+}
+
+#evolution {
+    display: inline;
+}
+
+#energy {
+    display: inline;
+}
+
+.card-ability {
+    display: flex;
+    flex-direction: column;
+    margin: .5rem 0 1rem 0;
+}
+
+#ability-header {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+#ability-name {
+    font-size: 1.2rem;
+    width: 33%;
+}
+
+#ability-points {
+    font-size: 1.2rem;
+}
+
+#ability-label {
+    color: rgb(255, 60, 0);
+    font-weight: bold;
+    font: 1.2rem;
+    border: 1px solid rgb(255, 60, 0);
+    
+}
+
+.card-attack {
+    display: flex;
+    flex-direction: column;
+    margin: .5rem 0;
+}
+
+#attack-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+#attack-name {
+    font-size: 1.2rem;
+}
+
+#attack-points {
+    font-size: 1.2rem;
+}
+
+#card-footer {
+    display: flex;
+    justify-content: space-between;
+    font-size: .75rem;
+    border-top: 1px black solid;
+    padding-top: .5rem;
+}
