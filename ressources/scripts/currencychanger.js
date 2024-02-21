@@ -9,6 +9,7 @@ const getVNDExchangeRate = async () => {
     let urlToFetch = baseUrl + requestParams;
 
     try {
+        document.getElementById('exchange-rate-button').style.border = 'black 1px solid';
         let response = await fetch(urlToFetch);
         if (response.ok) {
             let jsonResponse = await response.json();
@@ -23,4 +24,4 @@ const getVNDExchangeRate = async () => {
     }
 }
 const button = document.getElementById('exchange-rate-button');
-button.addEventListener('click', getVNDExchangeRate());
+button.addEventListener('click', getVNDExchangeRate);
